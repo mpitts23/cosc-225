@@ -1,0 +1,95 @@
+body{
+  background-color: rgb(204, 203, 203);
+
+}
+#header{
+  position: fixed;
+  top: 0px;
+  line-height: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.spacer{
+  width: 800px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  height: 100px;
+  padding: 20px;
+}
+#top{
+  position: fixed;
+  width: 800px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  height: 100px;
+  padding: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.active {
+  background-color: #b687eb;
+}
+
+.background{
+  width: 800px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  height: 100%;
+  padding: 20px;
+}
+.textcenter{
+  background-color: rgb(255, 255, 255);
+  width: 600px;
+  height: 100%;
+  margin: auto;
+}
+
+.navbar {
+  list-style-type: none;
+  position: fixed;
+  top: 100px;
+  width: 800px;
+  margin-left: -20px;
+  background-color: rgb(43, 145, 183);
+}
+
+.navbar li {
+  float: left;
+
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar li a:hover {
+  background-color: #8fe5d4;
+}
+
+/*taken from w3schools.org*/
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img{
+    width: 300px;
+    height: auto
+  
+}
+
+/* figured out how to center fixed elements using: 
+https://stackoverflow.com/questions/2005954/center-a-positionfixed-element */
+
