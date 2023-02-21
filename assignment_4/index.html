@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="style.css" />
     <script src="cellular-automata.js"></script>
     <script> window.onload= function(){
-        const rule=30;
-        const width=50;
+        const rule=57;
+        const width=100;
         var config= new Array(width).fill(0);
         config[config.length/2] = 1;
         applyRule(config,rule);
@@ -16,7 +16,8 @@
   </head>
   <body>
     <div id="background">
-      <h1>Rule rule</h1>
+        <div id="header">
+        </div>
       <div id = "main">
       </div>
     </div>
