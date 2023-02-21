@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Index</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="cellular-automata.js"></script>
+    <script> window.onload= function(){
+        const rule=30;
+        const width=50;
+        var config= new Array(width).fill(0);
+        config[config.length/2] = 1;
+        applyRule(config,rule);
+    }
+    </script>
+  </head>
+  <body>
+    <div id="background">
+      <h1>Rule rule</h1>
+      <div id = "main">
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,9 +1,8 @@
 body{
   background-color: rgb(204, 203, 203);
-
 }
+
 #header{
-  position: fixed;
   top: 0px;
   line-height: 100px;
   left: 50%;
