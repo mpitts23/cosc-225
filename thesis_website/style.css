@@ -1,52 +1,53 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+  font-family: sans-serif;
+  background-color: #f9f9f9;
 }
 
 .person {
-  width: 30%;
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 .person h2 {
-  font-size: 24px;
   margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .checkbox-container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 }
 
-.checkbox-label {
-  margin-bottom: 5px;
+.checkbox-container label {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
 }
 
-.checkbox {
-  margin-right: 5px;
+.checkbox-container input[type="checkbox"] {
+  margin-right: 10px;
 }
 
 .progress-bar {
-  height: 20px;
-  background-color: #ddd;
+  position: relative;
+  height: 10px;
+  border: 1px solid #ccc;
   border-radius: 5px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  overflow: hidden;
 }
 
-.progress {
-  height: 20px;
-  background-color: #4CAF50;
-  border-radius: 5px;
+.progress-bar .pitt-progress,
+.progress-bar .gracie-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #007bff;
 }

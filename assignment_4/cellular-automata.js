@@ -1,4 +1,4 @@
-function applyRule(config, rule){
+function graphics(config, rule){
 
 grand = document.querySelector("#header");
 header = document.createElement("h1");
@@ -17,7 +17,7 @@ for(let j = 0; j <config.length; j++){
         config = config;
     }
     else{
-        config = makeRules(config, rule);
+        config = applyRule(config, rule);
     }
     newRow = makeRow(config);
     parent.appendChild(newRow);
@@ -36,7 +36,7 @@ function get_binary(n) {
 }
 
 
-function makeRules(config, rule){
+function applyRule(config, rule){
     const digits = get_binary(rule);
     var left = 0;
     var right = 0;
@@ -116,3 +116,4 @@ function makeRow(config){
     return newRow;
 }
 
+module.exports={applyRule};

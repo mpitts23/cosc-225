@@ -1,0 +1,29 @@
+#background{
+    width: 800px;
+    height:600px;
+    background-color:  rgb(3, 192, 221);
+    margin: auto;
+}
+
+
+#main{
+    width: 800px;
+    height:600px;
+    background-color: rgb(3, 192, 221);
+    margin: auto;
+}
+
+
+#main h1{
+    margin: auto;
+    text-align: center;
+}
+
+svg{
+    display: block;
+    background-color: rgb(231, 231, 231);
+    margin: auto;
+    width: 600px;
+    height: 400px;
+
+}
